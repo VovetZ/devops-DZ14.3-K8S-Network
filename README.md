@@ -212,7 +212,7 @@ root@master-01:~# cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 root@master-01:~# chown $(id -u):$(id -g) $HOME/.kube/config
 ```
 
-Сохранил kubeconfig из мастер ноды на локальную машину, заменил адрес мастер ноды на внешний IP
+Сохранил `kubeconfig` из мастер ноды на локальную машину, заменил адрес мастер ноды на внешний IP
 
 ```bash
 vk@vkvm:~$ mkdir -p $HOME/.kube
